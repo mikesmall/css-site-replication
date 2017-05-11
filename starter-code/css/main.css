@@ -4,7 +4,103 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #06365f;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-color: gray;
   margin: 0;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+}
+
+#top-empty-space {
+  width: 100%;
+  display: block;
+  margin: 50px;
+}
+
+#left-column {
+  float: left;
+  width: 40%;
+}
+
+#photo-of-phones {
+  float: right;
+  margin-right: 60px;
+}
+
+#right-column {
+  float: left;
+  width: 60%;
+  max-width: 500px;
+}
+
+header {
+
+}
+
+button {
+  font-weight: bold;
+  font-size: 16px;
+  display: inline;
+  float: right;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+#white-box {
+  background-color: white;
+  border-radius: 10px;
+}
+
+#capture-and-share {
+
+}
+
+h1 {
+  font-color: #06365f;
+  font-size: 30px;
+  line-height: 1.2;
+}
+
+#paragraphs {
+
+}
+
+p {
+  font-color: gray;
+  line-spacing: 1.2;
+}
+
+strong {
+  font-color: black;
+}
+
+.download-badges {
+
+}
+
+footer {
+
+}
+
+nav {
+
+}
+
+nav a {
+
+}
+
+#copyright {
+
 }
